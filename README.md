@@ -78,7 +78,7 @@ Add Volume:
 ```
    Adding Volume Mounts: 
    ```yml
-             volumeMounts:
+            volumeMounts:
             - mountPath: /camunda/conf/server.xml
               name: server
               subPath: server.xml
