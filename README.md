@@ -4,7 +4,7 @@ This README provides step-by-step instructions to deploy Camunda 7 on an AKS (Az
 
 ## Prerequisites
 
-1. An AKS cluster must be spun up and configured.
+1. An Kube cluster must be spun up and configured. (I'm using AKS)
 2. `kubectl` CLI should be installed and connected to your AKS cluster.
 
 ## Steps to Deploy Camunda 7
