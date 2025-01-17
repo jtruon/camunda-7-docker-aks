@@ -23,7 +23,10 @@ This README provides step-by-step instructions to deploy Camunda 7 on an AKS (Az
    ```bash
    psql -h <POSTGRES_HOST> -U <USERNAME> -d <DATABASE_NAME>
    ```
-
+   Once connected, run the following SQL command to create the camunda database:
+   ```bash
+   CREATE DATABASE camunda;
+   ```
 ### 2. Deploy Camunda
 
 1. Apply the Camunda deployment manifest:
